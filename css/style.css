@@ -1,0 +1,63 @@
+body .header{
+    background-color: black;
+    #navegacion_uno{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        .logo img{
+            width: 80px;
+            height: 80px;
+        }
+        .busqueda{
+            width: 50%;
+            height: 45px;
+            .btn_search{
+                
+                background-color: #FFCD11;
+            }
+        }
+        .link_nav1{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            svg{
+                margin: auto;
+                color: white;
+            }
+            a{
+                color: white;
+            }
+        }
+        .link_nav2{
+            margin: auto;
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            svg{
+                margin: auto;
+                color: white;
+            }
+            a{
+                color: white;
+            }
+        }
+        .link_nav3{
+            margin: auto;
+            svg{
+                color: white;
+            }
+            
+        }
+    }
+
+    #navegacion_dos{
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+        border-top: 1px solid white;
+        a{
+            color: white;
+            padding: 20px;
+        }
+    }
+} 
