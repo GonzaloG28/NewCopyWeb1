@@ -1,16 +1,16 @@
 .header{
     background-color: black;
-    height: 40%;
     #navegacion_uno{
         display: flex;
         justify-content: space-evenly;
-        width: 80%;
+        width: 70%;
         .logo img{
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
         }
         .busqueda{
-            width: 50%;
+            width: 60%;
             height: 45px;
             .btn_search{
                 
@@ -41,7 +41,7 @@
         }
         .link_nav2{
             margin: auto;
-            width: 35%;
+            width: 40%;
             display: flex;
             justify-content: center;
             padding: 5px;
@@ -80,10 +80,11 @@
 
     #navegacion_dos{
         display: flex;
-        width: 75%;
+        width: 70%;
         margin: 0 auto;
         border-top: 1px solid white;
         .menu_2{
+           margin: 0;
             &:hover{
                 background-color: rgb(69, 66, 66);
                 a{
@@ -95,7 +96,8 @@
             }
             a{
                 color: white;
-                padding: 20px;
+                padding: 15px 10px;
+                margin-right: 5px;
             }
         }
     }
@@ -131,7 +133,7 @@
     .content {
         position: relative;
         z-index: 1;
-        max-width: 45%;
+        max-width: 40%;
        h1{
         font-weight:bolder;
        }
@@ -141,6 +143,95 @@
         height: 4px;
         background-color:#FFCD11;
         margin: 10px 0;
+    }
+}
+
+
+
+.contenedor_informacion{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    
+    .card{
+        width: 25%;
+        margin-left: 5px;
+        border: none;
+        .card-header{
+            background: none;
+            border: none;
+            h4{
+                font-weight: bolder;
+            }
+        }
+        .card-link1{
+            width: 92%;
+            margin: 0 auto;
+            border-top: solid 1px black;
+            padding-bottom: 30px;
+            padding-left: 0;
+                a{
+                    font-size: smaller;
+                    text-decoration: none;
+                    font-weight: bolder;
+                    margin-left: 0;
+                    .flecha-card{
+                        transition: margin-left 0.2s ease-in-out;
+                        
+                    }
+                    &:hover{
+                        .flecha-card{
+                            margin-left: 5px;
+                        }
+                    }
+                }       
+        }
+    }
+    .separator2{
+        width: 11%;
+        background-color:#FFCD11;
+        margin: 10px 0;
+        height: 4px;
+    }
+}
+
+
+.contenedor_informacion2{
+    background-color: #7c7c7c11;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    .card{
+        width: 25%;
+        margin-left: 25px;
+        border: none;
+        background: none;
+        border-radius: 0;
+        .card-body{
+            h5{
+                border-top: solid 1px black;
+                padding-top: 15px;
+                font-weight: bold;
+            }
+            p{
+                height: 40%;
+                font-size:medium;
+            }
+            a{
+                font-size: small;
+                text-decoration: none;
+                font-weight: bold;
+                .flecha-card{
+                    transition: margin-left 0.2s ease-in-out;
+                    
+                }
+                &:hover{
+                    .flecha-card{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
     }
 }
 
